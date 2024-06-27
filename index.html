@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="50x50" href="assets/Doom png.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="css/estilos.css" rel="stylesheet">
+    <title>Jostin</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="contenedor">
+            <nav class="cabecera__logo">
+                <img class="cabecera__logo-img" src="assets/Doom png.png" alt="logo mask">
+                <h1 class="cabecera__titulo">Jostin</h1>
+            </nav>
+
+            <nav class="cabecera__navegacion">
+                <ul class="cabecera__navegacion-lista">
+                    <li class="cabecera__navegacion-items">
+                        <a href="#sobre" class="cabecera__navegacion-link">Sobre mi</a>
+                    </li>
+                    <li class="cabecera__navegacion-items">
+                        <a href="#skills" class="cabecera__navegacion-link">Skills</a>
+                    </li>
+                    <li class="cabecera__navegacion-items">
+                        <a href="#formacion" class="cabecera__navegacion-link">Formación</a>
+                    </li>
+                    <li class="cabecera__navegacion-items">
+                        <a href="#proyecto" class="cabecera__navegacion-link">Proyectos</a>
+                    </li>
+                    <li class="cabecera__navegacion-items">
+                        <a href="mailto:sant7p6@gmail.com" 
+                            class="cabecera__navegacion-link cabecera__contacto" target="_blank">
+                            sant7p6@gmail.com
+                        </a>
+                    </li>
+                </ul>
+                <li class="cabecera__navegacion-items--contacto">
+                    <a href="mailto:sant7p6@gmail.com" class="cabecera__contacto" 
+                    target="_blank">sant7p6@gmail.com</a>
+                </li>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección del Banner -->
+        <section class="banner">
+            <div class="contenedor">
+                <img class="banner__perfil-top" src="assets/yo.jpg" alt="imagen de perfil">
+                <div class="banner__contenido">
+                    <h1 class="banner__titulo">
+                        Hola, Soy Jostin Perez y me encanta la programacion.
+                    </h1>
+                    <p class="banner__bio">
+                       Estoy siendo formado en la universidad Politecnico GranColombiano como desarrollador de software y estoy en el proyecto Oracle ONE en alura.
+                    </p>
+
+                    <!-- Pon los enlaces de tus redes sociales  -->
+                    <div class="banner__network">
+                        <ul class="banner__network-lista">
+                            <li class="banner__network-items">
+                                <a href="https://github.com/Goldiman6" class="banner__network-link" target="_blank">Github</a>
+                                <img class="banner__link--img" src="assets/arrow.png">
+                            </li>
+                            <li class="banner__network-items">
+                                <a href="https://www.linkedin.com/in/santiago-perez679/" class="banner__network-link" target="_blank">LinkedIn</a>
+                                <img class="banner__link--img" src="assets/arrow.png">
+                            </li>
+                            <li class="banner__network-items">
+                                <a href="https://www.instagram.com/topo.yiyu/" class="banner__network-link">Instagram</a>
+                                <img class="banner__link--img" src="assets/arrow.png">
+                            </li>
+                           
+                            <li class="banner__network-items">
+                                <a href="mailto:sant7p6@gmail.com" class="banner__network-link" target="_blank">
+                                    <img class="banner__link--correo" src="assets/correo.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <img class="banner__perfil" src="assets/yo.jpg" alt="imagen de perfil">
+            </div>
+        </section>
+
+        <!-- Sección sobre mi -->
+        <section class="sobre" id="sobre">
+            <div class="sobre__contenedor">
+                <div class="sobre__contenedor-descripcion">
+                    <h3 class="sobre__titulo">Sobre mi.</h3>
+                    <p class="sobre__parafo">
+                        Soy estudiante en curso para ser un desarrollor de software con enfoque en backend y 
+                        he buscado maneras de apliar mis conocimientos en programacion a traves de cursos cortos de JavaScript,
+                        python, MySQL y realizando lecturar sobre ruby,azure y demas. Tengo la mentalidad clara de algun dia 
+                        trabajar y vivir de programas, me motiva y me encanta el area de las tecnologias. estoy abierto a recibir
+                        mentorias para mejorar mis habilidades y ser mucho mejor para el futuro.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Sección de Skills -->
+        <section class="skill " id="skills"> 
+            <div class="skills">
+                <h2 class="skills__titulo">Skills:</h2>
+                <ul class="skills__lista">
+                    <li class="skills__item item__html">
+                        <p class="skills__item--texto item__titulo--html">html</p>
+                        <img class="skills__item--img" src="./assets/html.png" alt="">
+                    </li>
+                    <li class="skills__item item--css">
+                        <p class="skills__item--texto item__titulo--css">css</p>
+                        <img class="skills__item--img" src="./assets/css.png" alt="">
+                    </li>
+                    <li class="skills__item item--js">
+                        <p class="skills__item--texto item__titulo--js">JavaScript</p>
+                        <img class="skills__item--img" src="./assets/js.png" alt="">
+                    </li>
+                    <li class="skills__item item--react">
+                        <p class="skills__item--texto item__titulo--java">Java</p>
+                        <img class="skills__item--img" src="./assets/java.png" alt="">
+                    </li>
+                
+                    <li class="skills__item item--mysql">
+                        <p class="skills__item--texto item__titulo--mysql">PostgreSQL</p>
+                        <img class="skills__item--img mysql" src="./assets/Postsql.png" alt="">
+                    </li> 
+                    <li class="skills__item item--github">
+                        <p class="skills__item--texto item__titulo--github">Github</p>
+                        <img class="skills__item--img" src="./assets/github.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>     
+        
+        <!-- Sección de Formación académica -->
+        <section class="formaciones" id="formacion">
+            <div class="formacion" id="degree">
+                <h3 class="formacion__titulo">Formación Academica</h3>
+                <div class="formacion__contenedor">
+                    <ul class="formacion__lista">
+                        <li class="formacion__item">
+                            <img class="formacion__item--img" src="./assets/poli.png" alt="Logo poli">
+                            <p class="formacion__item--texto">Desarrollo de Software</p>
+                            <p class="formacion__item--subtitulo">2022 - 2025</p>
+                            <p class="formacion__item--subtitulo">Politecnico Grancolombiano</p>
+                        </li>
+                        
+                        <li class="formacion__item">
+                            <img class="formacion__item--img" src="./assets/alura.png" alt="Logo de Alura">
+                            <p class="formacion__item--texto">Front End G5 - ONE</p>
+                            <p class="formacion__item--subtitulo">2024 - Alura Latam</p>
+                        </li>
+                      
+                        <li class="formacion__item">
+                            <img class="formacion__item--img" src="./assets/alura.png" alt="Logo de Alura">
+                            <p class="formacion__item--texto">Soft Skills G5 - ONE</p>
+                            <p class="formacion__item--subtitulo">2024 - Alura Latam</p>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Sección de Experiencia Profesional/Proyectos-->
+        <section class="proyecto" id="proyecto">
+            <div class="proyecto__contenedor--mobile">
+                <h2 class="proyecto__titulo--principal" >Proyectos</h2>
+                <div class="proyecto__contenedor">
+                    <img class="proyecto__img" src="assets/dishapp (1).jpg">
+                    <div class="proyecto__contenido">
+                        <h2 class="proyecto__titulo">DishApp</h2>
+                        <h3 class="proyecto__texto">Un app con una pequeña base de datos integrada para dejar rastro
+                            de las acciones hechas en la app, aun falta complementarla realizando mejoras en la interfaz
+                            y actualizacion de datos del usuario. </h3>
+                            <div class="proyecto__descripcion">
+                                <div class="proyecto__boton">
+                                    <a href="https://github.com/Goldiman6/app-comidas-android" class="proyecto__boton--link boton--repositorio">
+                                        Repositorio
+                                        <img class="proyecto__boton--link__img boton--repositorio__img" src="assets/github.png" alt="logo de github">
+                                    </a>
+                                </div>
+                               
+                            </div>
+                    </div>
+                </div>  
+
+
+                <div class="proyecto__contenedor">
+                    <img class="proyecto__img" src="assets/Encriptador.png">
+                    <div class="proyecto__contenido">
+                        <h2 class="proyecto__titulo"> Encriptador de texto </h2>
+                        <h3 class="proyecto__texto">Este es un proyecto desarrollado como parte del
+                            desafío Oracle One con la colaboración de Alura Latam.
+                        </h3>
+                            <div class="proyecto__descripcion">
+                                <div class="proyecto__boton">
+                                    <a href="https://github.com/Goldiman6/Encriptado-texto" class="proyecto__boton--link boton--repositorio ">
+                                        Repositorio
+                                        <img class="proyecto__boton--link__img" src="assets/github.png" alt="logo de github">
+                                    </a>
+                                </div>
+                               
+                            </div>
+                    
+                    
+                        <div class="proyecto__contenedor">
+                            <img class="proyecto__img" src="assets/portafolio.png">
+                            <div class="proyecto__contenido">
+                                <h2 class="proyecto__titulo">Portafolio parcial</h2>
+                                <h3 class="proyecto__texto">El portafolio que se acaba de ver es un portafolio parcial hecho con solo 
+                                    los proyectos de front end realizados, lo estare actualizando y cuando este mas completo sera subido a github.
+                                 </h3>
+                                    <div class="proyecto__descripcion">
+                                        
+                                       
+                                    </div>
+                            </div>
+                        </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+            
+
+            <div class="proyecto__contenedor--desktop">
+                <h2 class="proyecto__titulo--principal" >Proyectos</h2>
+                <div class="proyecto__contenedor">
+                    <div class="proyecto__contenido" >
+                        <h2 class="proyecto__titulo">DishApp</h2>
+                        <h3 class="proyecto__texto">Un app con una pequeña base de datos integrada para dejar rastro
+                            de las acciones hechas en la app, aun falta complementarla realizando mejoras en la interfaz
+                            y actualizacion de datos del usuario. </h3>
+                            <div class="proyecto__descripcion">
+                                <div class="proyecto__boton">
+                                    <a href="https://github.com/Goldiman6/app-comidas-android" target="_blank" class="proyecto__boton--link boton--repositorio ">
+                                        Repositorio
+                                        <img class="proyecto__boton--link__img boton--repositorio__img" src="assets/github.png" alt="logo de github">
+                                    </a>
+                                </div>
+                               
+                            </div>
+                    </div>
+                    <img class="proyecto__img" src="assets/dishapp (1).jpg">
+                </div>  
+
+                 
+
+<div class="proyecto__contenedor">
+                    <img class="proyecto__img" src="assets/Encriptador.png">
+                    <div class="proyecto__contenido">
+                        <h2 class="proyecto__titulo"> Encriptador de texto</h2>
+                        <h3 class="proyecto__texto">Este es un proyecto desarrollado como parte del
+                            desafío Oracle One con la colaboración de Alura Latam.
+                        </h3>
+                            <div class="proyecto__descripcion">
+                                <div class="proyecto__boton">
+                                    <a href="https://github.com/Goldiman6/Encriptado-texto" target="_blank" class="proyecto__boton--link boton--repositorio ">
+                                        Repositorio
+                                        <img class="proyecto__boton--link__img" src="assets/github.png" alt="logo de github">
+                                    </a>
+                                </div>
+                                
+                                
+                            </div>
+                    </div>
+                </div>
+                <div class="proyecto__contenedor">
+                    <div class="proyecto__contenido" >
+                        <h2 class="proyecto__titulo">Portafolio parcial</h2>
+                        <h3 class="proyecto__texto">El portafolio que se acaba de ver es un portafolio parcial hecho con solo 
+                            los proyectos de front end realizados, lo estare actualizando y cuando este mas completo sera subido a github. </h3>
+                            <div class="proyecto__descripcion">
+                               
+                               
+                            </div>
+                    </div>
+                    <img class="proyecto__img" src="assets/portafolio.png">
+                </div>  
+            </div>
+        </section>
+
+        <!-- Sección de Footer -->
+        <section class="footer">
+            <p class="footer__contenido">
+                       
+                2024 © Todos los derechos reservados <span class="footer__color"> by Jostin Perez </span>
+            </p> 
+        </section>
+    </main>
+</body>
+</html>
